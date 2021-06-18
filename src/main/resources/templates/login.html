@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/login.js"></script>
+    <script src="/navBar.js"></script>
+</head>
+<body>
+<div id="login_page">
+    <div class="login" id="loginbox" style="border:1px solid gray; width: min-content; border-radius: 10px;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);padding: 30px;background-color: #f6f6f6">
+        <img src="/shoppe2Better.png" alt="Shopify" width="200" height="94" style="margin:10px; padding-bottom:5px;"/>
+        <div class="row">
+            <div class="col-md-6">
+                <fieldset>
+                    <p><input type="text" id="username" placeholder="Username"/></p>
+                    <p><input type="password" id="password" placeholder="Password"/></p>
+                    <input type="submit" id="login" class="btn btn-success" value="Login">
+                    <input type="submit" id="newuser" class="btn btn-success" value="Create User">
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <table class="table" id="table">
+        <thead>
+        <tr>
+            <th> Username </th>
+            <th> Password </th>
+        </tr>
+        </thead>
+        <tbody class="userlist-dummy" id="userlist-dummy"></tbody>
+    </table>
+</div>
+<div id="home_page">
+</div>
+</body>
+</html>

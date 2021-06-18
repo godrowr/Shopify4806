@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${shop.name}"></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/viewShop.js"></script>
+    <script src="/navBar.js"></script>
+</head>
+<body>
+    <h1 th:text="${shop.name}"></h1>
+    <p hidden id="shopID" th:text="${shop.id}"></p>
+    <p th:text="${shop.category}"></p>
+    <p th:text="${shop.tag}"></p>
+    <p th:text="${shop.ownedBy.getUsername()}"></p>
+    <div id="products"></div>
+    <form id="createProductForm">
+        <label for="name">Name</label><input type="text" name="name" id="name"/>
+        <label for="description">Description</label><input type="text" name="description" id="description"/>
+        <label for="imageUrl">URL of product image</label><input type="text" name="imageUrl" id="imageUrl"/>
+        <label for="inventoryNumber">Inventory #</label><input type="number" name="inventoryNumber" id="inventoryNumber"/>
+        <label for="price">Price</label><input type="number" name="price" id="price" />
+        <input type="submit" class="btn btn-submit" id="submitProduct" value="Add product to shop"/>
+    </form>
+</body>
+</html>
