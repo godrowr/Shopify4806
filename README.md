@@ -22,12 +22,12 @@ Trevor Bivi, Ryan Gaudreault, Rahel Gunaratne, Ehren Julien-Neitzert, Aldous Ric
 | Issue       | Member           | Progress |
 | ------------- |:-------------:| -----:|
 | Extra validation | Trevor | Completed
-| Add shopping cart logic | Rahel | Completed
+| Add shopping cart logic | Ryan | Completed
 | Fix some missing references and JPA attributes | Rahel | Completed
 | Make shops search more usable | Aldous | Completed
-| Add Error Page | Ryan |  Completed
+| Add Error Page | Rahel |  Completed
 | Add User Page when logged in on Home page | Ryan |  Completed
-| User can checkout a product | Ehren |  Completed
+| User can checkout a product | Ryan |  Completed
 | Hystrix | Everyone | In Progress
 
 ### Next Sprint
