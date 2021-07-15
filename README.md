@@ -45,7 +45,7 @@ Trevor Bivi, Ryan Gaudreault, Rahel Gunaratne, Ehren Julien-Neitzert, Aldous Ric
 ### Setup
 1. Clone the repository
 ```
-$ git clone https://github.com/kael558/4806Shopify.git
+$ git clone https://github.com/godrowr/springboot-shopify.git
 ```
 2. Open up IntelliJ 4806Shopify
 3. Run BootApplication
